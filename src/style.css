@@ -1,0 +1,52 @@
+
+:root {
+    --first-color: #343434;
+    --second-color: #055e68;
+    --third-color: #62a388;
+    --fourth-color: #b9d2d2;
+}
+
+body {
+    color: var(--first-color);
+}
+
+.hero {
+    text-align: center;
+    background-color: var(--fourth-color);
+    padding: 160px 0px;
+}
+.hero p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+margin: 0px;
+}
+
+.hero h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+}
+.hero h1 {
+    font-family:'Playfair Display', serif;
+    font-size: 96px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero button {
+    border-radius: 4px;
+    background: var(--second-color);
+ border-color: var(--second-color);
+    
+}
+
+.hero button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--fourth-color);
+}
+
