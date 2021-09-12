@@ -1,3 +1,4 @@
+/* Homepage Hero */
 
 :root {
     --first-color: #343434;
@@ -19,14 +20,12 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 36px;
-margin: 0px;
+ margin: 0px;
 }
 
 .hero h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
-   font-weight: normal;
-   font-style: normal;
 }
 .hero h1 {
     font-family:'Playfair Display', serif;
@@ -35,18 +34,45 @@ margin: 0px;
     font-weight: bold;
 }
 
-.hero button {
+.btn-lets-chat{
     border-radius: 4px;
     background: var(--second-color);
- border-color: var(--second-color);
-    
-}
-
-.hero button a {
-    text-decoration: none;
-    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: var(--fourth-color);
 }
 
+/* Page Content Styling */
+
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Homepage Content */
+ 
+.btn-content-btn {
+    background: white;
+    border: 3px solid var(--fourth-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--first-color);
+}
+
+
+/* Media */
+
+@media (max-width:767px) {
+    .img {display: none;}
+
+    .hmpg-content {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 65px;
+    }
+}
