@@ -4,22 +4,22 @@
     --first-color: #343434;
     --second-color: #055e68;
     --third-color: #62a388;
-    --fourth-color: #b9d2d2;
+    --fourth-color: #e1e9e9;
     --fifth-color: #b9d2d2;
 }
 
-body {
+body, a {
     color: var(--first-color);
 }
 
-h1 {
+h1, h4 {
     font-family: 'Playfair Display', serif;
 }
 
-h2, h3, p, ul { font-family: 'Poppins', sans-serif;}
+h2, h3, p, ul, a { font-family: 'Poppins', sans-serif;}
 
 
- nav .emoji {
+ nav .emoji  {
 
  font-size: 60px;
 
@@ -36,17 +36,17 @@ nav li {
 
 li a {
     text-decoration: none;
-    color: var(--first-color);
+
 }
 
-nav li.active a, nav li a:hover {
+nav li.active a, nav li a:hover, 
+footer a:hover {
     color: var(--second-color);
 }
 
-
 .hero {
     text-align: center;
-    background-color: var(--fourth-color);
+    background-color: var(--fifth-color);
     padding: 160px 0px;
 }
 .hero p {
@@ -79,6 +79,54 @@ nav li.active a, nav li a:hover {
     font-family: 'Poppins', sans-serif;
     color: var(--first-color);
 }
+
+
+.content-section {
+    padding: 80px 20px;
+  }
+
+  .content {
+    margin: 30px;
+  }
+  .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .content h3 {
+      font-weight: bold;
+      font: 24px;
+  }
+  
+.my-face {
+      max-height: 550px;
+      margin-top: 50px;
+      border-radius: 35px;
+  }
+
+
+  footer {
+      padding: 40px;
+     
+  }
+  .contact-box {
+      max-width: 900px;
+      padding: 25px 45px;
+      border-radius: 35px;
+    background-color: var(--fourth-color);
+ margin: 50px 0px 30px 0px
+  }
+
+  .contact-box .btn-lets-chat {
+      padding: 20px;
+      margin-top: 2px;
+  }
 
 
 /* Media */
@@ -114,33 +162,3 @@ nav li.active a, nav li a:hover {
      
   }
 }
-
-.content-section {
-    padding: 80px 20px;
-    background: var();
-  }
-
-  .content {
-    margin: 30px;
-  }
-  .content h1 {
-    font-size: 64px;
-    line-height: 80px;
-
-  }
-  
-  .content h2 {
-    font-size: 32px;
-    font-weight: bold;
-  }
-
-  .content h3 {
-      font-weight: bold;
-      font: 24px;
-  }
-  
-.my-face {
-      max-height: 550px;
-      margin-top: 50px;
-      border-radius: 35px;
-  }
