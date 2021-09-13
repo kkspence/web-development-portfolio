@@ -68,7 +68,7 @@ h2, p { font-family: 'Poppins', sans-serif;}
         font-size: 65px;
     }
 
-    .about-section  {
+    .content-section  {
     text-align: center;
        padding-top: 80px;
     }
@@ -83,26 +83,25 @@ h2, p { font-family: 'Poppins', sans-serif;}
   }
 }
 
-.about-section {
+.content-section {
     padding: 80px 20px;
     background: var();
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 64px;
     line-height: 80px;
 
   }
   
-  .about-section h2 {
-    font-size: 18px;
+  .content h2 {
+    font-size: 32px;
+    font-weight: bold;
   }
   
-  .about-section-content {
+  .content {
     margin: 30px;
   }
-
-
 
 
 .my-face {
